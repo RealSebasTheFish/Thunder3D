@@ -2,6 +2,8 @@ package thunder;
 
 public abstract class Scene {
 
+    public Camera camera;
+
     public Scene() {
 
     }
