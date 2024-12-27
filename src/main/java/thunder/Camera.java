@@ -26,7 +26,7 @@ public class Camera {
         Vector3f cameraFront = new Vector3f(0.0f, 0.0f, -1.0f);
         Vector3f cameraUp = new Vector3f(0.0f, 1.0f, 0.0f);
         this.viewMatrix.identity();
-        this.viewMatrix = viewMatrix.lookAt(new Vector3f(position.x, position.y, 5.5f), cameraFront.add(position.x, position.y, position.z), cameraUp.add(position.x, position.y, position.z));
+        this.viewMatrix = viewMatrix.lookAt(new Vector3f(position.x, position.y, position.z), cameraFront.add(position.x, position.y, position.z), cameraUp);
 
         return this.viewMatrix;
     }

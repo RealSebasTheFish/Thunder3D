@@ -120,7 +120,7 @@ public class Window {
             glfwPollEvents();
 
             // Clear canvas
-            glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+            glClearColor(255.0f, 255.0f, 255.0f, 1.0f);
             glClear(GL_COLOR_BUFFER_BIT);
 
             // Check to see if first frame has happened
